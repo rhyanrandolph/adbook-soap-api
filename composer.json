@@ -1,5 +1,6 @@
 {
     "name": "activenetwork/adbook-soap-api",
+    "type": "library",
     "description": "PHP classes based on AdBook's SOAP WSDL",
     "keywords": ["AdBook", "SOAP", "API"],
     "license": "proprietary",
