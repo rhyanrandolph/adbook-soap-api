@@ -1,0 +1,95 @@
+<?php
+
+namespace FatTail\AdBook;
+
+class DataAccessFaultObjectType
+{
+    const __default = 'NotSpecified';
+    const NotSpecified = 'NotSpecified';
+    const Agency = 'Agency';
+    const AgencyContact = 'AgencyContact';
+    const Client = 'Client';
+    const ClientContact = 'ClientContact';
+    const AdServer = 'AdServer';
+    const AdUnit = 'AdUnit';
+    const Availability = 'Availability';
+    const Contact = 'Contact';
+    const Currency = 'Currency';
+    const Drop = 'Drop';
+    const MediaElement = 'MediaElement';
+    const Order = 'Order';
+    const OrderRep = 'OrderRep';
+    const OrderStatus = 'OrderStatus';
+    const PositionPricing = 'PositionPricing';
+    const PriceType = 'PriceType';
+    const RateCardName = 'RateCardName';
+    const Rep = 'Rep';
+    const RepType = 'RepType';
+    const ServedBy = 'ServedBy';
+    const Targeting = 'Targeting';
+    const TargetingElement = 'TargetingElement';
+    const TargetingGroup = 'TargetingGroup';
+    const TargetingPackage = 'TargetingPackage';
+    const ThirdPartyAdServer = 'ThirdPartyAdServer';
+    const ThirdPartyMetric = 'ThirdPartyMetric';
+    const TrafficAdType = 'TrafficAdType';
+    const TrafficDeliveryMakeGood = 'TrafficDeliveryMakeGood';
+    const TrafficDeliveryScheduling = 'TrafficDeliveryScheduling';
+    const TrafficPriority = 'TrafficPriority';
+    const ThirdPartyDeliveryQuantity = 'ThirdPartyDeliveryQuantity';
+    const ThirdPartyDeliveryUploadResult = 'ThirdPartyDeliveryUploadResult';
+    const OrderAttachment = 'OrderAttachment';
+    const OrderConfiguration = 'OrderConfiguration';
+    const ClientAgencyRelationship = 'ClientAgencyRelationship';
+    const NewsletterAvailability = 'NewsletterAvailability';
+    const DynamicProperty = 'DynamicProperty';
+    const DynamicPropertyValue = 'DynamicPropertyValue';
+    const DynamicPropertyListElement = 'DynamicPropertyListElement';
+    const ParentClient = 'ParentClient';
+    const ParentAgency = 'ParentAgency';
+    const ParentClientRelationship = 'ParentClientRelationship';
+    const ParentAgencyRelationship = 'ParentAgencyRelationship';
+    const ParentClientContact = 'ParentClientContact';
+    const ParentAgencyContact = 'ParentAgencyContact';
+    const OrderSearchParameter = 'OrderSearchParameter';
+    const AdServerEntityMapping = 'AdServerEntityMapping';
+    const PackageDefinition = 'PackageDefinition';
+    const PackageComponentDrop = 'PackageComponentDrop';
+    const TargetCriteriaSetOR = 'TargetCriteriaSetOR';
+    const KeyValueExpression = 'KeyValueExpression';
+    const TargetCriteria = 'TargetCriteria';
+    const ExternalDataMap = 'ExternalDataMap';
+    const ReportQuery = 'ReportQuery';
+    const QueryParameter = 'QueryParameter';
+    const QueryFilter = 'QueryFilter';
+    const QueryFilterValue = 'QueryFilterValue';
+    const SavedReport = 'SavedReport';
+    const SavedReportQuery = 'SavedReportQuery';
+    const FieldOutputColumn = 'FieldOutputColumn';
+    const ReportJob = 'ReportJob';
+    const DeliveryDetailOutputColumn = 'DeliveryDetailOutputColumn';
+    const MetricOutputColumn = 'MetricOutputColumn';
+    const MediaElementProperty = 'MediaElementProperty';
+    const MediaElementPropertyListItem = 'MediaElementPropertyListItem';
+    const MediaElementPropertyValue = 'MediaElementPropertyValue';
+    const AccountContactAssociation = 'AccountContactAssociation';
+    const Creative = 'Creative';
+    const CreativeAssignment = 'CreativeAssignment';
+    const ContentTargetingDelivery = 'ContentTargetingDelivery';
+    const ContentTargetingDeliveryUploadResult = 'ContentTargetingDeliveryUploadResult';
+    const FirstPartyDeliveryQuantity = 'FirstPartyDeliveryQuantity';
+    const FirstPartyDeliveryUploadResult = 'FirstPartyDeliveryUploadResult';
+    const FirstPartyDelivery = 'FirstPartyDelivery';
+    const DropBillingStatus = 'DropBillingStatus';
+    const UpdateDropBillingStatusResult = 'UpdateDropBillingStatusResult';
+    const AccountManagerAssociation = 'AccountManagerAssociation';
+    const AccountManagerGroupAssociation = 'AccountManagerGroupAssociation';
+    const RevisionProposal = 'RevisionProposal';
+    const ProposalVersion = 'ProposalVersion';
+    const PublisherContact = 'PublisherContact';
+    const CustomTask = 'CustomTask';
+    const ClientAgencyReportJob = 'ClientAgencyReportJob';
+    const DropBillingAdjustment = 'DropBillingAdjustment';
+
+
+}

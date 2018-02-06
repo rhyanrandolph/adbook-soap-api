@@ -1,0 +1,30 @@
+{
+    "name": "activenetwork/adbook-soap-api",
+    "description": "PHP classes based on AdBook's SOAP WSDL",
+    "keywords": ["AdBook", "SOAP", "API"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rhyan Randolph",
+            "email": "rhyan.randolph@activenetwork.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "vlucas/phpdotenv": "~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdBook\\": "src/FatTail/AdBook"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
