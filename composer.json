@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AdBook\\": "src/FatTail/AdBook"
+            "FatTail\\": "src/FatTail"
         }
     },
     "autoload-dev": {
